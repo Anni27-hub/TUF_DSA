@@ -8,7 +8,7 @@ Repository: Anni27-hub/TUF_DSA
 
 class Solution {
     public boolean isAutomorphic(int n) {
-        int square = n * n;
+        long square = (long) n * n;
         while (n > 0) {
             if (n % 10 != square % 10)
                 return false;
